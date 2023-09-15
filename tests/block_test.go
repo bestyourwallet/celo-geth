@@ -86,7 +86,7 @@ func TestExecutionSpecBlocktests(t *testing.T) {
 	bt.skipLoad(".*prague/eip7002_el_triggerable_withdrawals/contract_deployment/system_contract_deployment.json")
 
 	bt.walk(t, executionSpecBlockchainTestDir, func(t *testing.T, name string, test *BlockTest) {
-		matches, err := regexp.MatchString("blockchain_test-create2?-over_limit_(ones|zeros)", name)
+		matches, err := regexp.MatchString("create2?-over_limit_(ones|zeros)", name)
 		if err != nil {
 			t.Errorf("Bad regexp: %s", err)
 		}
