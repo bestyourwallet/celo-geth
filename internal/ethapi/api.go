@@ -1410,6 +1410,15 @@ func AccessList(ctx context.Context, b CeloBackend, blockNrOrHash rpc.BlockNumbe
 		}
 	}
 
+	// Apply state overrides immediately after StateAndHeaderByNumberOrHash.
+	// If not applied here, there could be cases where user-specified overrides (e.g., nonce)
+	// may conflict with default values from the database, leading to inconsistencies.
+	if stateOverrides != nil {
+		if err := stateOverrides.Apply(db, nil); err != nil {
+			return nil, 0, nil, err
+		}
+	}
+
 	// Ensure any missing fields are filled, extract the recipient and input data
 	if err = args.setFeeDefaults(ctx, b, header); err != nil {
 		return nil, 0, nil, err
