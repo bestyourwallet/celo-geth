@@ -90,10 +90,21 @@ func DebitFees(evm *vm.EVM, feeCurrency *common.Address, address common.Address,
 		// debitGasFees(address from, uint256 value) parameters
 		address, amount,
 	)
-	if errors.Is(err, vm.ErrOutOfGas) {
-		// This basically is a configuration / contract error, since
-		// the contract itself used way more gas than was expected (including grace limit)
-		return 0, fmt.Errorf("surpassed maximum allowed intrinsic gas for fee currency: %w", err)
+	if err != nil {
+		if errors.Is(err, vm.ErrOutOfGas) {
+			// This basically is a configuration / contract error, since
+			// the contract itself used way more gas than was expected (including grace limit)
+			return 0, fmt.Errorf(
+				"%w: surpassed maximum allowed intrinsic gas for DebitFees() in fee-currency: %w",
+				ErrFeeCurrencyEVMCall,
+				err,
+			)
+		}
+		return 0, fmt.Errorf(
+			"%w: DebitFees() call error: %w",
+			ErrFeeCurrencyEVMCall,
+			err,
+		)
 	}
 
 	gasUsed := maxIntrinsicGasCost - leftoverGas
@@ -152,10 +163,21 @@ func CreditFees(
 		// )
 		txSender, tipReceiver, common.ZeroAddress, baseFeeReceiver, refund, feeTip, common.Big0, baseFee,
 	)
-	if errors.Is(err, vm.ErrOutOfGas) {
-		// This is a configuration / contract error, since
-		// the contract itself used way more gas than was expected (including grace limit)
-		return fmt.Errorf("surpassed maximum allowed intrinsic gas for fee currency: %w", err)
+	if err != nil {
+		if errors.Is(err, vm.ErrOutOfGas) {
+			// This is a configuration / contract error, since
+			// the contract itself used way more gas than was expected (including grace limit)
+			return fmt.Errorf(
+				"%w: surpassed maximum allowed intrinsic gas for CreditFees() in fee-currency: %w",
+				ErrFeeCurrencyEVMCall,
+				err,
+			)
+		}
+		return fmt.Errorf(
+			"%w: CreditFees() call error: %w",
+			ErrFeeCurrencyEVMCall,
+			err,
+		)
 	}
 
 	gasUsed := maxAllowedGasForCredit - leftoverGas
@@ -168,7 +190,12 @@ func CreditFees(
 	}
 	gasUsedForDebitAndCredit := gasUsedDebit + gasUsed
 	if gasUsedForDebitAndCredit > intrinsicGas {
-		log.Info("Gas usage for debit+credit exceeds intrinsic gas!", "gasUsed", gasUsedForDebitAndCredit, "intrinsicGas", intrinsicGas, "feeCurrency", feeCurrency)
+		log.Info(
+			"Gas usage for debit+credit exceeds intrinsic gas!",
+			"gasUsed", gasUsedForDebitAndCredit,
+			"intrinsicGas", intrinsicGas,
+			"feeCurrency", feeCurrency,
+		)
 	}
 	return err
 }
