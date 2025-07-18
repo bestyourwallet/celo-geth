@@ -225,7 +225,7 @@ func run(ctx context.Context, call *core.Message, opts *Options) (*core.Executio
 	// Assemble the call and the call context
 	var (
 		feeCurrencyContext = core.GetFeeCurrencyContext(opts.Header, opts.Config, opts.State)
-		evmContext         = core.NewEVMBlockContext(opts.Header, opts.Chain, nil, opts.Config, opts.State, feeCurrencyContext)
+		evmContext         = core.NewEVMBlockContextWithFeeCurrencyContext(opts.Header, opts.Chain, nil, opts.Config, opts.State, feeCurrencyContext)
 		dirtyState         = opts.State.Copy()
 	)
 	if opts.BlockOverrides != nil {
