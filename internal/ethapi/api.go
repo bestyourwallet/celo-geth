@@ -1428,6 +1428,7 @@ func AccessList(ctx context.Context, b CeloBackend, blockNrOrHash rpc.BlockNumbe
 		nonce := hexutil.Uint64(db.GetNonce(args.from()))
 		args.Nonce = &nonce
 	}
+
 	feeCurrencyContext := core.GetFeeCurrencyContext(header, b.ChainConfig(), db)
 	blockCtx := core.NewEVMBlockContext(header, NewChainContext(ctx, b), nil, b.ChainConfig(), db, feeCurrencyContext)
 	if err = args.CallDefaults(b.RPCGasCap(), blockCtx.BaseFee, b.ChainConfig().ChainID); err != nil {
