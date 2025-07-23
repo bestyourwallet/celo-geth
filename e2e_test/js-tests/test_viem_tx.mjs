@@ -318,7 +318,7 @@ describe("viem send tx", () => {
 			maxFeePerGas: gasPrice,
 			maxPriorityFeePerGas: 0n,
 		});
-		await expectTxFail(request, "transaction underpriced");
+		await expectTxFail(request, "transaction gas price below minimum");
 	}).timeout(10_000);
 
 	it("zero tip fee currency tx rejected", async () => {
@@ -331,7 +331,7 @@ describe("viem send tx", () => {
 			maxFeePerGas: maxFeePerGas,
 			maxPriorityFeePerGas: 0n,
 		});
-		await expectTxFail(request, "transaction underpriced");
+		await expectTxFail(request, "transaction gas price below minimum");
 	}).timeout(10_000);
 });
 
