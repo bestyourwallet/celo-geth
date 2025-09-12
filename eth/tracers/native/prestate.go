@@ -135,6 +135,31 @@ func (t *prestateTracer) OnOpcode(pc uint64, opcode byte, gas, cost uint64, scop
 	case stackLen >= 5 && (op == vm.DELEGATECALL || op == vm.CALL || op == vm.STATICCALL || op == vm.CALLCODE):
 		addr := common.Address(stackData[stackLen-2].Bytes20())
 		t.lookupAccount(addr)
+
+		// The transfer precompile modifies two balances that are not expected to change in a normal CALL, so we need to handle this case explicitly.
+		if addr == vm.TransferPrecompileAddress {
+			// For CALL: stack has [gas, addr, value, inOffset, inSize, retOffset, retSize]
+
+			// Get input
+			if stackLen < 7 {
+				return
+			}
+			inOffset := stackData[stackLen-4]
+			inSize := stackData[stackLen-5]
+			if inSize.Uint64() < 64 {
+				return
+			}
+			input, err := internal.GetMemoryCopyPadded(scope.MemoryData(), int64(inOffset.Uint64()), 64)
+			if err != nil {
+				return
+			}
+
+			// Look up the from and to accounts
+			from := common.BytesToAddress(input[0:32])
+			to := common.BytesToAddress(input[32:64])
+			t.lookupAccount(from)
+			t.lookupAccount(to)
+		}
 	case op == vm.CREATE:
 		nonce := t.env.StateDB.GetNonce(caller)
 		addr := crypto.CreateAddress(caller, nonce)
