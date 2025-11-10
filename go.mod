@@ -14,7 +14,7 @@ require (
 	github.com/cespare/cp v0.1.0
 	github.com/cloudflare/cloudflare-go v0.114.0
 	github.com/cockroachdb/pebble v1.1.2
-	github.com/consensys/gnark-crypto v0.16.0
+	github.com/consensys/gnark-crypto v0.18.1
 	github.com/crate-crypto/go-eth-kzg v1.3.0
 	github.com/crate-crypto/go-ipa v0.0.0-20240724233137-53bbb0ceb27a
 	github.com/crate-crypto/go-kzg-4844 v1.1.0
@@ -101,7 +101,7 @@ require (
 	github.com/cockroachdb/logtags v0.0.0-20230118201751-21c54148d20b // indirect
 	github.com/cockroachdb/redact v1.1.5 // indirect
 	github.com/cockroachdb/tokenbucket v0.0.0-20230807174530-cc333fc44b06 // indirect
-	github.com/consensys/bavard v0.1.27 // indirect
+	github.com/consensys/bavard v0.1.31-0.20250406004941-2db259e4b582 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.5 // indirect
 	github.com/deepmap/oapi-codegen v1.6.0 // indirect
 	github.com/dlclark/regexp2 v1.7.0 // indirect
