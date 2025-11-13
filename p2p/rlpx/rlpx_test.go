@@ -29,8 +29,8 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/bestyourwallet/celo-geth/crypto"
-	"github.com/bestyourwallet/celo-geth/crypto/ecies"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto/ecies"
 	"github.com/bestyourwallet/celo-geth/p2p/pipes"
 	"github.com/bestyourwallet/celo-geth/rlp"
 	"github.com/stretchr/testify/assert"

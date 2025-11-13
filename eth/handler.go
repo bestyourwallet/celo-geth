@@ -29,7 +29,7 @@ import (
 	"github.com/bestyourwallet/celo-geth/core/forkid"
 	"github.com/bestyourwallet/celo-geth/core/txpool"
 	"github.com/bestyourwallet/celo-geth/core/types"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/celo-geth/eth/downloader"
 	"github.com/bestyourwallet/celo-geth/eth/ethconfig"
 	"github.com/bestyourwallet/celo-geth/eth/fetcher"

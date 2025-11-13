@@ -29,7 +29,7 @@ import (
 	"time"
 
 	"github.com/bestyourwallet/celo-geth/common/math"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/celo-geth/p2p/enode"
 	"github.com/bestyourwallet/celo-geth/p2p/enr"
 	"github.com/bestyourwallet/celo-geth/rlp"

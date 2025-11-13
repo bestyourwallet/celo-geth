@@ -18,7 +18,7 @@ package types
 
 import (
 	"github.com/bestyourwallet/celo-geth/common"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 var (

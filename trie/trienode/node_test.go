@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"github.com/bestyourwallet/celo-geth/common"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 func BenchmarkMerge(b *testing.B) {

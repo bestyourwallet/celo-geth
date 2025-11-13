@@ -37,7 +37,7 @@ import (
 	"github.com/bestyourwallet/celo-geth/core/txpool"
 	"github.com/bestyourwallet/celo-geth/core/types"
 	"github.com/bestyourwallet/celo-geth/core/vm"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/celo-geth/event"
 	"github.com/bestyourwallet/celo-geth/params"
 	"github.com/bestyourwallet/celo-geth/trie"

@@ -57,7 +57,7 @@ import (
 	"time"
 
 	"github.com/cespare/cp"
-	"github.com/bestyourwallet/celo-geth/crypto/signify"
+	"github.com/ethereum/go-ethereum/crypto/signify"
 	"github.com/bestyourwallet/celo-geth/internal/build"
 	"github.com/bestyourwallet/celo-geth/internal/version"
 )

@@ -23,7 +23,7 @@ import (
 
 	"github.com/bestyourwallet/celo-geth/common"
 	"github.com/bestyourwallet/celo-geth/core/types"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 // Tests that transactions can be added to strict lists and list contents and

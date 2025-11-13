@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"github.com/bestyourwallet/celo-geth/accounts/abi"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 type bindV2Test struct {

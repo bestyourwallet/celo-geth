@@ -23,7 +23,7 @@ import (
 	"sync"
 
 	"github.com/bestyourwallet/celo-geth/common"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/celo-geth/rlp"
 	"golang.org/x/crypto/sha3"
 )

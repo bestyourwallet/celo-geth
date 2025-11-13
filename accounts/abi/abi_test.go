@@ -28,7 +28,7 @@ import (
 
 	"github.com/bestyourwallet/celo-geth/common"
 	"github.com/bestyourwallet/celo-geth/common/math"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/celo-geth/internal/testrand"
 )
 

@@ -31,7 +31,7 @@ import (
 	"github.com/bestyourwallet/celo-geth/consensus/misc/eip4844"
 	"github.com/bestyourwallet/celo-geth/core"
 	"github.com/bestyourwallet/celo-geth/core/types"
-	"github.com/bestyourwallet/celo-geth/crypto/kzg4844"
+	"github.com/ethereum/go-ethereum/crypto/kzg4844"
 	"github.com/bestyourwallet/celo-geth/log"
 	"github.com/bestyourwallet/celo-geth/params"
 	"github.com/bestyourwallet/celo-geth/rpc"

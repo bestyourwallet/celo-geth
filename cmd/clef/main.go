@@ -41,7 +41,7 @@ import (
 	"github.com/bestyourwallet/celo-geth/common"
 	"github.com/bestyourwallet/celo-geth/common/hexutil"
 	"github.com/bestyourwallet/celo-geth/core/types"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/celo-geth/internal/ethapi"
 	"github.com/bestyourwallet/celo-geth/internal/flags"
 	"github.com/bestyourwallet/celo-geth/log"

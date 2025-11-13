@@ -27,7 +27,7 @@ import (
 	"github.com/bestyourwallet/celo-geth/accounts/keystore"
 	"github.com/bestyourwallet/celo-geth/common"
 	"github.com/bestyourwallet/celo-geth/core/types"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 // ErrNotAuthorized is returned when an account is not properly unlocked.

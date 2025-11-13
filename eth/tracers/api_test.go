@@ -44,7 +44,7 @@ import (
 	"github.com/bestyourwallet/celo-geth/core/tracing"
 	"github.com/bestyourwallet/celo-geth/core/types"
 	"github.com/bestyourwallet/celo-geth/core/vm"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/celo-geth/eth/tracers/logger"
 	"github.com/bestyourwallet/celo-geth/ethdb"
 	"github.com/bestyourwallet/celo-geth/internal/ethapi"

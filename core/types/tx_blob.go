@@ -23,7 +23,7 @@ import (
 	"math/big"
 
 	"github.com/bestyourwallet/celo-geth/common"
-	"github.com/bestyourwallet/celo-geth/crypto/kzg4844"
+	"github.com/ethereum/go-ethereum/crypto/kzg4844"
 	"github.com/bestyourwallet/celo-geth/params"
 	"github.com/bestyourwallet/celo-geth/rlp"
 	"github.com/holiman/uint256"

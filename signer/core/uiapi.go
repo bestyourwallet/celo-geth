@@ -28,7 +28,7 @@ import (
 	"github.com/bestyourwallet/celo-geth/accounts/keystore"
 	"github.com/bestyourwallet/celo-geth/common"
 	"github.com/bestyourwallet/celo-geth/common/math"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 // UIServerAPI implements methods Clef provides for a UI to query, in the bidirectional communication

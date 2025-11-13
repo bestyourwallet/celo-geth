@@ -25,7 +25,7 @@ import (
 	"math/big"
 
 	"github.com/bestyourwallet/celo-geth/common"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 // The ABI holds information about a contract's context and available

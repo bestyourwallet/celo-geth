@@ -22,7 +22,7 @@ import (
 	"strings"
 
 	"github.com/bestyourwallet/celo-geth/common/hexutil"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/celo-geth/internal/debug"
 	"github.com/bestyourwallet/celo-geth/log"
 	"github.com/bestyourwallet/celo-geth/p2p"

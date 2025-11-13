@@ -25,7 +25,7 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/celo-geth/eth/protocols/eth"
 	"github.com/bestyourwallet/celo-geth/eth/protocols/snap"
 	"github.com/bestyourwallet/celo-geth/p2p"

@@ -35,7 +35,7 @@ import (
 	"github.com/bestyourwallet/celo-geth/common"
 	"github.com/bestyourwallet/celo-geth/common/hexutil"
 	"github.com/bestyourwallet/celo-geth/core/vm"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	jsassets "github.com/bestyourwallet/celo-geth/eth/tracers/js/internal/tracers"
 )
 

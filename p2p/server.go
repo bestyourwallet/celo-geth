@@ -33,7 +33,7 @@ import (
 
 	"github.com/bestyourwallet/celo-geth/common"
 	"github.com/bestyourwallet/celo-geth/common/mclock"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/celo-geth/event"
 	"github.com/bestyourwallet/celo-geth/log"
 	"github.com/bestyourwallet/celo-geth/p2p/discover"

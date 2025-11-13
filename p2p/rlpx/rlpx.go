@@ -33,8 +33,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/bestyourwallet/celo-geth/crypto"
-	"github.com/bestyourwallet/celo-geth/crypto/ecies"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/crypto/ecies"
 	"github.com/bestyourwallet/celo-geth/rlp"
 	"github.com/golang/snappy"
 	"golang.org/x/crypto/sha3"

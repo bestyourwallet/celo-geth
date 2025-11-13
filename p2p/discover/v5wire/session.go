@@ -24,7 +24,7 @@ import (
 
 	"github.com/bestyourwallet/celo-geth/common/lru"
 	"github.com/bestyourwallet/celo-geth/common/mclock"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/celo-geth/p2p/enode"
 )
 

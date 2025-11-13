@@ -23,7 +23,7 @@ import (
 
 	"github.com/bestyourwallet/celo-geth/accounts/keystore"
 	"github.com/bestyourwallet/celo-geth/cmd/utils"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/urfave/cli/v2"
 )
 

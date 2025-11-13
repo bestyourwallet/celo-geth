@@ -29,7 +29,7 @@ import (
 	"github.com/bestyourwallet/celo-geth/consensus/ethash"
 	"github.com/bestyourwallet/celo-geth/core"
 	"github.com/bestyourwallet/celo-geth/core/types"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/celo-geth/eth"
 	"github.com/bestyourwallet/celo-geth/eth/ethconfig"
 	"github.com/bestyourwallet/celo-geth/eth/filters"

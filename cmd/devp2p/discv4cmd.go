@@ -28,7 +28,7 @@ import (
 
 	"github.com/bestyourwallet/celo-geth/cmd/devp2p/internal/v4test"
 	"github.com/bestyourwallet/celo-geth/common"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/celo-geth/log"
 	"github.com/bestyourwallet/celo-geth/p2p/discover"
 	"github.com/bestyourwallet/celo-geth/p2p/enode"

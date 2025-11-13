@@ -26,7 +26,7 @@ import (
 	"github.com/bestyourwallet/celo-geth/accounts/abi/abigen"
 	"github.com/bestyourwallet/celo-geth/cmd/utils"
 	"github.com/bestyourwallet/celo-geth/common/compiler"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 // Run go generate to recreate the test bindings.

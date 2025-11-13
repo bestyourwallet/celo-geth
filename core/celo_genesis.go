@@ -8,7 +8,7 @@ import (
 	"github.com/bestyourwallet/celo-geth/common"
 	"github.com/bestyourwallet/celo-geth/contracts/addresses"
 	"github.com/bestyourwallet/celo-geth/contracts/celo"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/celo-geth/params"
 )
 

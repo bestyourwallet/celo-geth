@@ -22,7 +22,7 @@ import (
 	"math/big"
 
 	"github.com/bestyourwallet/celo-geth/common/hexutil"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 type bytesBacked interface {

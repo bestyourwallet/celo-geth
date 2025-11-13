@@ -26,7 +26,7 @@ import (
 	"github.com/bestyourwallet/celo-geth/accounts/abi/bind/v2"
 	"github.com/bestyourwallet/celo-geth/common"
 	"github.com/bestyourwallet/celo-geth/core/types"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/bestyourwallet/celo-geth/ethclient/simulated"
 	"github.com/bestyourwallet/celo-geth/params"
 )

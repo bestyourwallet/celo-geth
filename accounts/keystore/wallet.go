@@ -22,7 +22,7 @@ import (
 	"github.com/bestyourwallet/celo-geth"
 	"github.com/bestyourwallet/celo-geth/accounts"
 	"github.com/bestyourwallet/celo-geth/core/types"
-	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/ethereum/go-ethereum/crypto"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original
