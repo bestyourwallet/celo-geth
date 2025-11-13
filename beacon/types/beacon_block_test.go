@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/bestyourwallet/celo-geth/common"
 )
 
 func TestBlockFromJSON(t *testing.T) {

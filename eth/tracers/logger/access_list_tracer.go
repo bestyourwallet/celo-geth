@@ -19,10 +19,10 @@ package logger
 import (
 	"maps"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/bestyourwallet/celo-geth/common"
+	"github.com/bestyourwallet/celo-geth/core/tracing"
+	"github.com/bestyourwallet/celo-geth/core/types"
+	"github.com/bestyourwallet/celo-geth/core/vm"
 )
 
 // accessList is an accumulator for the set of accounts and storage slots an EVM

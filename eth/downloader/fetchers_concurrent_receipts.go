@@ -19,9 +19,9 @@ package downloader
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/bestyourwallet/celo-geth/common"
+	"github.com/bestyourwallet/celo-geth/eth/protocols/eth"
+	"github.com/bestyourwallet/celo-geth/log"
 )
 
 // receiptQueue implements typedQueue and is a type adapter between the generic

@@ -20,10 +20,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
+	"github.com/bestyourwallet/celo-geth/common"
+	"github.com/bestyourwallet/celo-geth/core/rawdb"
+	"github.com/bestyourwallet/celo-geth/ethdb"
+	"github.com/bestyourwallet/celo-geth/ethdb/memorydb"
 )
 
 func TestIteratorHold(t *testing.T) {

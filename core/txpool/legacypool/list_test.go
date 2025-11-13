@@ -21,9 +21,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/bestyourwallet/celo-geth/common"
+	"github.com/bestyourwallet/celo-geth/core/types"
+	"github.com/bestyourwallet/celo-geth/crypto"
 )
 
 // Tests that transactions can be added to strict lists and list contents and

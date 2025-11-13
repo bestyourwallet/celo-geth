@@ -8,12 +8,12 @@ import (
 	"math/big"
 	"strings"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
+	ethereum "github.com/bestyourwallet/celo-geth"
+	"github.com/bestyourwallet/celo-geth/accounts/abi"
+	"github.com/bestyourwallet/celo-geth/accounts/abi/bind"
+	"github.com/bestyourwallet/celo-geth/common"
+	"github.com/bestyourwallet/celo-geth/core/types"
+	"github.com/bestyourwallet/celo-geth/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

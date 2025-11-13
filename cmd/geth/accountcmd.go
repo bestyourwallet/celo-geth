@@ -22,11 +22,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/bestyourwallet/celo-geth/accounts"
+	"github.com/bestyourwallet/celo-geth/accounts/keystore"
+	"github.com/bestyourwallet/celo-geth/cmd/utils"
+	"github.com/bestyourwallet/celo-geth/common"
+	"github.com/bestyourwallet/celo-geth/crypto"
 	"github.com/urfave/cli/v2"
 )
 

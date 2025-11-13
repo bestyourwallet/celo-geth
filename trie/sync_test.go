@@ -23,13 +23,13 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/trie/trienode"
+	"github.com/bestyourwallet/celo-geth/common"
+	"github.com/bestyourwallet/celo-geth/core/rawdb"
+	"github.com/bestyourwallet/celo-geth/core/types"
+	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/bestyourwallet/celo-geth/ethdb"
+	"github.com/bestyourwallet/celo-geth/ethdb/memorydb"
+	"github.com/bestyourwallet/celo-geth/trie/trienode"
 )
 
 // makeTestTrie create a sample test trie to test node-wise reconstruction.

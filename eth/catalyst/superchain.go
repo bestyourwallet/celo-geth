@@ -3,9 +3,9 @@ package catalyst
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bestyourwallet/celo-geth/log"
+	"github.com/bestyourwallet/celo-geth/metrics"
+	"github.com/bestyourwallet/celo-geth/params"
 )
 
 var (

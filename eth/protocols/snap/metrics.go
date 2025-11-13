@@ -17,7 +17,7 @@
 package snap
 
 import (
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/bestyourwallet/celo-geth/metrics"
 )
 
 var (

@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/bestyourwallet/celo-geth/rpc"
 	"github.com/golang-jwt/jwt/v4"
 )
 

@@ -3,7 +3,7 @@ package types
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bestyourwallet/celo-geth/params"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -22,9 +22,9 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params/forks"
+	"github.com/bestyourwallet/celo-geth/common"
+	"github.com/bestyourwallet/celo-geth/log"
+	"github.com/bestyourwallet/celo-geth/params/forks"
 )
 
 // Genesis hashes to enforce below configs on.

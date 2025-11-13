@@ -3,8 +3,8 @@ package vm
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/bestyourwallet/celo-geth/accounts/abi"
+	"github.com/bestyourwallet/celo-geth/common"
 	"github.com/holiman/uint256"
 )
 

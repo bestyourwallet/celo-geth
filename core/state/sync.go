@@ -17,11 +17,11 @@
 package state
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/bestyourwallet/celo-geth/common"
+	"github.com/bestyourwallet/celo-geth/core/types"
+	"github.com/bestyourwallet/celo-geth/ethdb"
+	"github.com/bestyourwallet/celo-geth/rlp"
+	"github.com/bestyourwallet/celo-geth/trie"
 )
 
 // NewStateSync creates a new state trie download scheduler.

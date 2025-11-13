@@ -3,11 +3,11 @@ package vm
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/contracts/addresses"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/bestyourwallet/celo-geth/common"
+	"github.com/bestyourwallet/celo-geth/common/hexutil"
+	"github.com/bestyourwallet/celo-geth/common/math"
+	"github.com/bestyourwallet/celo-geth/contracts/addresses"
+	"github.com/bestyourwallet/celo-geth/params"
 	"github.com/holiman/uint256"
 )
 

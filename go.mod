@@ -1,4 +1,4 @@
-module github.com/ethereum/go-ethereum
+module github.com/bestyourwallet/celo-geth
 
 go 1.23.0
 

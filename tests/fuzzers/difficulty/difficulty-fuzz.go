@@ -23,8 +23,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/bestyourwallet/celo-geth/consensus/ethash"
+	"github.com/bestyourwallet/celo-geth/core/types"
 )
 
 type fuzzer struct {

@@ -25,17 +25,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/filtermaps"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/bestyourwallet/celo-geth/common"
+	"github.com/bestyourwallet/celo-geth/consensus/ethash"
+	"github.com/bestyourwallet/celo-geth/core"
+	"github.com/bestyourwallet/celo-geth/core/filtermaps"
+	"github.com/bestyourwallet/celo-geth/core/rawdb"
+	"github.com/bestyourwallet/celo-geth/core/types"
+	"github.com/bestyourwallet/celo-geth/ethdb"
+	"github.com/bestyourwallet/celo-geth/event"
+	"github.com/bestyourwallet/celo-geth/internal/ethapi"
+	"github.com/bestyourwallet/celo-geth/params"
+	"github.com/bestyourwallet/celo-geth/rpc"
 )
 
 type testBackend struct {

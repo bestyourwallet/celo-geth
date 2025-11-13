@@ -19,10 +19,10 @@ package state
 import (
 	"maps"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie/utils"
+	"github.com/bestyourwallet/celo-geth/common"
+	"github.com/bestyourwallet/celo-geth/common/math"
+	"github.com/bestyourwallet/celo-geth/params"
+	"github.com/bestyourwallet/celo-geth/trie/utils"
 	"github.com/holiman/uint256"
 )
 

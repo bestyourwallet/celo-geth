@@ -22,9 +22,9 @@ import (
 	"slices"
 	"time"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/v5test"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/p2p/discover"
+	"github.com/bestyourwallet/celo-geth/cmd/devp2p/internal/v5test"
+	"github.com/bestyourwallet/celo-geth/common"
+	"github.com/bestyourwallet/celo-geth/p2p/discover"
 	"github.com/urfave/cli/v2"
 )
 

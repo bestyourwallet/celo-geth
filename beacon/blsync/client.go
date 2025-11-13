@@ -17,18 +17,18 @@
 package blsync
 
 import (
-	"github.com/ethereum/go-ethereum/beacon/light"
-	"github.com/ethereum/go-ethereum/beacon/light/api"
-	"github.com/ethereum/go-ethereum/beacon/light/request"
-	"github.com/ethereum/go-ethereum/beacon/light/sync"
-	"github.com/ethereum/go-ethereum/beacon/params"
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/bestyourwallet/celo-geth/beacon/light"
+	"github.com/bestyourwallet/celo-geth/beacon/light/api"
+	"github.com/bestyourwallet/celo-geth/beacon/light/request"
+	"github.com/bestyourwallet/celo-geth/beacon/light/sync"
+	"github.com/bestyourwallet/celo-geth/beacon/params"
+	"github.com/bestyourwallet/celo-geth/beacon/types"
+	"github.com/bestyourwallet/celo-geth/common"
+	"github.com/bestyourwallet/celo-geth/common/mclock"
+	"github.com/bestyourwallet/celo-geth/ethdb/memorydb"
+	"github.com/bestyourwallet/celo-geth/event"
+	"github.com/bestyourwallet/celo-geth/log"
+	"github.com/bestyourwallet/celo-geth/rpc"
 )
 
 type Client struct {

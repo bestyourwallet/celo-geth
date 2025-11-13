@@ -22,13 +22,13 @@ import (
 	"os"
 	"slices"
 
-	"github.com/ethereum/go-ethereum/beacon/blsync"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/bestyourwallet/celo-geth/beacon/blsync"
+	"github.com/bestyourwallet/celo-geth/cmd/utils"
+	"github.com/bestyourwallet/celo-geth/internal/debug"
+	"github.com/bestyourwallet/celo-geth/internal/flags"
+	"github.com/bestyourwallet/celo-geth/log"
+	"github.com/bestyourwallet/celo-geth/node"
+	"github.com/bestyourwallet/celo-geth/rpc"
 	"github.com/urfave/cli/v2"
 )
 

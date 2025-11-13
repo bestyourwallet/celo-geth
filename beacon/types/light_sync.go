@@ -20,10 +20,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/beacon/merkle"
-	"github.com/ethereum/go-ethereum/beacon/params"
-	"github.com/ethereum/go-ethereum/common"
-	ctypes "github.com/ethereum/go-ethereum/core/types"
+	"github.com/bestyourwallet/celo-geth/beacon/merkle"
+	"github.com/bestyourwallet/celo-geth/beacon/params"
+	"github.com/bestyourwallet/celo-geth/common"
+	ctypes "github.com/bestyourwallet/celo-geth/core/types"
 )
 
 // HeadInfo represents an unvalidated new head announcement.

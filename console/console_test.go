@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/bestyourwallet/celo-geth/common"
+	"github.com/bestyourwallet/celo-geth/console/prompt"
+	"github.com/bestyourwallet/celo-geth/core"
+	"github.com/bestyourwallet/celo-geth/eth"
+	"github.com/bestyourwallet/celo-geth/eth/ethconfig"
+	"github.com/bestyourwallet/celo-geth/internal/jsre"
+	"github.com/bestyourwallet/celo-geth/miner"
+	"github.com/bestyourwallet/celo-geth/node"
 )
 
 const (

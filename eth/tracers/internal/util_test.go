@@ -19,7 +19,7 @@ package internal
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/bestyourwallet/celo-geth/core/vm"
 )
 
 func TestMemCopying(t *testing.T) {

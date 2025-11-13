@@ -21,8 +21,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/bestyourwallet/celo-geth/common"
+	"github.com/bestyourwallet/celo-geth/core/vm"
 	"github.com/holiman/uint256"
 )
 
@@ -218,9 +218,9 @@ func TestGenerator(t *testing.T) {
 			haveFn: func() []byte {
 				initcode := New().Return(0, 0).Bytes()
 				return New().MstoreSmall(initcode, 0).
-					Push(len(initcode)).      // length
+					Push(len(initcode)). // length
 					Push(32 - len(initcode)). // offset
-					Push(0).                  // value
+					Push(0). // value
 					Op(vm.CREATE).
 					Op(vm.POP).Bytes()
 			},
@@ -241,10 +241,10 @@ func TestGenerator(t *testing.T) {
 			haveFn: func() []byte {
 				initcode := New().Return(0, 0).Bytes()
 				return New().MstoreSmall(initcode, 0).
-					Push(1).                  // salt
-					Push(len(initcode)).      // length
+					Push(1). // salt
+					Push(len(initcode)). // length
 					Push(32 - len(initcode)). // offset
-					Push(0).                  // value
+					Push(0). // value
 					Op(vm.CREATE2).
 					Op(vm.POP).Bytes()
 			},

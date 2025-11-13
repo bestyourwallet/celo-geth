@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/internal/version"
+	"github.com/bestyourwallet/celo-geth/internal/version"
 )
 
 const (

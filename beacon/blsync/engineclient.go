@@ -22,13 +22,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/beacon/engine"
-	"github.com/ethereum/go-ethereum/beacon/params"
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/common"
-	ctypes "github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/bestyourwallet/celo-geth/beacon/engine"
+	"github.com/bestyourwallet/celo-geth/beacon/params"
+	"github.com/bestyourwallet/celo-geth/beacon/types"
+	"github.com/bestyourwallet/celo-geth/common"
+	ctypes "github.com/bestyourwallet/celo-geth/core/types"
+	"github.com/bestyourwallet/celo-geth/log"
+	"github.com/bestyourwallet/celo-geth/rpc"
 )
 
 type engineClient struct {

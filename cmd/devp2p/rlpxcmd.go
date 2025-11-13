@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/ethtest"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/bestyourwallet/celo-geth/cmd/devp2p/internal/ethtest"
+	"github.com/bestyourwallet/celo-geth/crypto"
+	"github.com/bestyourwallet/celo-geth/p2p"
+	"github.com/bestyourwallet/celo-geth/p2p/enode"
+	"github.com/bestyourwallet/celo-geth/p2p/rlpx"
+	"github.com/bestyourwallet/celo-geth/rlp"
 	"github.com/urfave/cli/v2"
 )
 

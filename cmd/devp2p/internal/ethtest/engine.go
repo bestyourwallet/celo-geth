@@ -25,7 +25,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/bestyourwallet/celo-geth/common"
 	"github.com/golang-jwt/jwt/v4"
 )
 

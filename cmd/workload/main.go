@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/bestyourwallet/celo-geth/ethclient"
+	"github.com/bestyourwallet/celo-geth/internal/debug"
+	"github.com/bestyourwallet/celo-geth/internal/flags"
+	"github.com/bestyourwallet/celo-geth/rpc"
 	"github.com/urfave/cli/v2"
 )
 

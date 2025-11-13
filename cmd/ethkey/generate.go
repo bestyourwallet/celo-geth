@@ -22,9 +22,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/bestyourwallet/celo-geth/accounts/keystore"
+	"github.com/bestyourwallet/celo-geth/cmd/utils"
+	"github.com/bestyourwallet/celo-geth/crypto"
 	"github.com/google/uuid"
 	"github.com/urfave/cli/v2"
 )

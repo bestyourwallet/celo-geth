@@ -32,11 +32,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/internal/testlog"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover/v4wire"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/bestyourwallet/celo-geth/internal/testlog"
+	"github.com/bestyourwallet/celo-geth/log"
+	"github.com/bestyourwallet/celo-geth/p2p/discover/v4wire"
+	"github.com/bestyourwallet/celo-geth/p2p/enode"
+	"github.com/bestyourwallet/celo-geth/p2p/enr"
 )
 
 // shared test variables

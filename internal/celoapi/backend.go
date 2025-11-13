@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/exchange"
-	"github.com/ethereum/go-ethereum/contracts"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/bestyourwallet/celo-geth/common"
+	"github.com/bestyourwallet/celo-geth/common/exchange"
+	"github.com/bestyourwallet/celo-geth/contracts"
+	"github.com/bestyourwallet/celo-geth/internal/ethapi"
+	"github.com/bestyourwallet/celo-geth/rpc"
 )
 
 func NewCeloAPIBackend(b ethapi.Backend) *CeloAPIBackend {

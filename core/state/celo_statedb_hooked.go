@@ -16,7 +16,7 @@
 
 package state
 
-import "github.com/ethereum/go-ethereum/core/tracing"
+import "github.com/bestyourwallet/celo-geth/core/tracing"
 
 func (s *hookedStateDB) Hooks() *tracing.Hooks {
 	return s.hooks

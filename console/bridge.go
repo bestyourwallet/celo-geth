@@ -25,10 +25,10 @@ import (
 	"time"
 
 	"github.com/dop251/goja"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/bestyourwallet/celo-geth/common/hexutil"
+	"github.com/bestyourwallet/celo-geth/console/prompt"
+	"github.com/bestyourwallet/celo-geth/internal/jsre"
+	"github.com/bestyourwallet/celo-geth/rpc"
 )
 
 // bridge is a collection of JavaScript utility methods to bride the .js runtime
